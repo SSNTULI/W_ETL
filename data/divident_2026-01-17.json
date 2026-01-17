@@ -1,0 +1,72 @@
+[
+    {
+        "id": "E396fbae341a40e1373ea57ce984c386f06778209996e5ef713783aa9455588bc",
+        "amount": 0.48975694000000003,
+        "frequency": 4,
+        "date": "2030-12-31",
+        "ticker": "GECCG"
+    },
+    {
+        "id": "Edd95a7bbac516897f19e62104fce597fc22bed2b4fa9a88f55dba4e6b90cb84b",
+        "amount": 0.484375,
+        "frequency": 4,
+        "date": "2030-09-30",
+        "ticker": "GECCG"
+    },
+    {
+        "id": "E423cf49e82932f378c27034ec2bd6fe3830606caa42d3053ca794e420136ef1b",
+        "amount": 0.515625,
+        "frequency": 4,
+        "date": "2030-07-30",
+        "ticker": "METCI"
+    },
+    {
+        "id": "Ee89ffa0dc20c03663d643fdbdb9d85f34460b75a2c6f07d24c19b0b30e80cdc7",
+        "amount": 0.47899305999999997,
+        "frequency": 4,
+        "date": "2030-06-30",
+        "ticker": "GECCG"
+    },
+    {
+        "id": "Ee4b12dadef7b17bcd4e3d76116f70a5fc96fcab3db65099a65e944a937a5cecf",
+        "amount": 0.515625,
+        "frequency": 4,
+        "date": "2030-04-30",
+        "ticker": "METCI"
+    },
+    {
+        "id": "Ec34ea155d7551d9173210ad0e95af0c182a06a9fd8aac5dd0ccca247b268ecb1",
+        "amount": 0.484375,
+        "frequency": 4,
+        "date": "2030-03-31",
+        "ticker": "GECCG"
+    },
+    {
+        "id": "E17f2cf2abb9543b8bffd00f02f56b8a1a8a73122d569b86ad71af71ac358406d",
+        "amount": 0.515625,
+        "frequency": 4,
+        "date": "2030-01-30",
+        "ticker": "METCI"
+    },
+    {
+        "id": "E5517750748dca0bc3e1e237ccfd6468a93f3d2ab543dfcb8b4fef4ccb7b8e463",
+        "amount": 0.51345,
+        "frequency": 4,
+        "date": "2029-12-31",
+        "ticker": "GECCH"
+    },
+    {
+        "id": "E5d7b63304e28504869d352068e9f88fc8d611566ff2329e9107fdcc9a1cfc645",
+        "amount": 0.48975694000000003,
+        "frequency": 4,
+        "date": "2029-12-31",
+        "ticker": "GECCG"
+    },
+    {
+        "id": "E3ebcc99c39df43869a525f4d4a5c5adef586ddc1f477df744c862619c5316d0b",
+        "amount": 0.52344,
+        "frequency": 4,
+        "date": "2029-10-30",
+        "ticker": "METCZ"
+    }
+]
