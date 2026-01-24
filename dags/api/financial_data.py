@@ -4,12 +4,18 @@ import os
 from dotenv import load_dotenv
 from datetime import date
 
-load_dotenv(dotenv_path="./.env")
+from airflow.decorators import task
+from airflow.model import Variable
 
-Api_key = os.getenv("Api_key")
+
+#load_dotenv(dotenv_path="./.env")
+
+#Api_key = os.getenv("Api_key")
+Api_key = Variable.get("Api_key")
 
 max_result = 10
 
+@task
 def get_finance_id():
 
     try:
@@ -23,7 +29,8 @@ def get_finance_id():
 
     except requests.exceptions.RequestException as e:
         raise e
-    
+
+@task 
 def get_divident_ids():
     divident_ids = []
     url = f'https://api.massive.com/v3/reference/dividends?apiKey={Api_key}'
@@ -38,7 +45,8 @@ def get_divident_ids():
     
     except requests.exceptions.RequestException as e:
         raise e
-    
+
+@task
 def get_data():
 
     extracted_data = []
@@ -65,6 +73,7 @@ def get_data():
     except requests.exceptions.RequestException as e:
         raise e
     
+@task    
 def save_to_jason(extracted_data):
     file_path = f"./data/divident_{date.today()}.json"
     with open(file_path,"w",encoding="utf-8") as json_ouput:
